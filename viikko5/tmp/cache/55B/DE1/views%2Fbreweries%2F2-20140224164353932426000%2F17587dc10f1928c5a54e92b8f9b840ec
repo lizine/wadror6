@@ -1,0 +1,26 @@
+o: ActiveSupport::Cache::Entry:@valueI"6<p id="notice"></p>
+
+<h2>
+  Malmgard
+</h2>
+
+<p> 
+  <em>Established year:</em>
+  2001
+</p>
+
+<p>Number of beers 3 </p>
+
+<ul>
+   <li><a href="/beers/4">Huvila Pale Ale</a></li>
+   <li><a href="/beers/5">X Porter</a></li>
+   <li><a href="/beers/9">Olkku1</a></li>
+</ul>
+
+    <p>Has 1 rating, average 34.0 </p>
+
+<a class="btn btn-primary" data-method="post" href="/breweries/2/toggle_activity" rel="nofollow">change activity</a>
+
+  <a href="/breweries/2/edit">Edit</a>
+  <a data-confirm="Are you sure?" data-method="delete" href="/breweries/2" rel="nofollow">Destroy</a>
+:ET:@created_atf1393267354.6347592:@expires_in0

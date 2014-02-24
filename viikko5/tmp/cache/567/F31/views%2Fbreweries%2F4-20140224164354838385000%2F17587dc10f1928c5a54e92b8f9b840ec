@@ -1,0 +1,23 @@
+o: ActiveSupport::Cache::Entry:@valueI"Á<p id="notice"></p>
+
+<h2>
+  Crap Brew
+</h2>
+
+<p> 
+  <em>Established year:</em>
+  2000
+</p>
+
+<p>Number of beers 0 </p>
+
+<ul>
+</ul>
+
+    <p>beers of the brewery have not yet been rated! </p>
+
+<a class="btn btn-primary" data-method="post" href="/breweries/4/toggle_activity" rel="nofollow">change activity</a>
+
+  <a href="/breweries/4/edit">Edit</a>
+  <a data-confirm="Are you sure?" data-method="delete" href="/breweries/4" rel="nofollow">Destroy</a>
+:ET:@created_atf1393267426.3476803:@expires_in0

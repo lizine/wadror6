@@ -1,0 +1,85 @@
+o: ActiveSupport::Cache::Entry:@valueI"½<table class="table table-hover">
+  <thead>
+    <tr>
+      <th> <a href="/beers?order=name">Name</a> </th>
+      <th> <a href="/beers?order=style">Style</a> </th>
+      <th> <a href="/beers?order=brewery">Brewery</a> </th>
+<th></th>
+<th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+      <tr>
+        <td><a href="/beers/6">Hefeweizen</a></td>
+        <td><a href="/styles/4">Weizen</a></td>
+        <td><a href="/breweries/3">Weihenstephaner</a></td>
+        <td><a href="/beers/6/edit">Edit</a></td>
+        <td><a class="btn btn-danger" data-confirm="Are you sure?" data-method="delete" href="/beers/6" rel="nofollow">Destroy</a></td>
+      </tr>
+      <tr>
+        <td><a href="/beers/7">Helles</a></td>
+        <td><a href="/styles/1">European pale lager</a></td>
+        <td><a href="/breweries/3">Weihenstephaner</a></td>
+        <td><a href="/beers/7/edit">Edit</a></td>
+        <td><a class="btn btn-danger" data-confirm="Are you sure?" data-method="delete" href="/beers/7" rel="nofollow">Destroy</a></td>
+      </tr>
+      <tr>
+        <td><a href="/beers/4">Huvila Pale Ale</a></td>
+        <td><a href="/styles/2">American pale ale</a></td>
+        <td><a href="/breweries/2">Malmgard</a></td>
+        <td><a href="/beers/4/edit">Edit</a></td>
+        <td><a class="btn btn-danger" data-confirm="Are you sure?" data-method="delete" href="/beers/4" rel="nofollow">Destroy</a></td>
+      </tr>
+      <tr>
+        <td><a href="/beers/1">Iso 33</a></td>
+        <td><a href="/styles/1">European pale lager</a></td>
+        <td><a href="/breweries/1">Koffi</a></td>
+        <td><a href="/beers/1/edit">Edit</a></td>
+        <td><a class="btn btn-danger" data-confirm="Are you sure?" data-method="delete" href="/beers/1" rel="nofollow">Destroy</a></td>
+      </tr>
+      <tr>
+        <td><a href="/beers/2">Karhu</a></td>
+        <td><a href="/styles/1">European pale lager</a></td>
+        <td><a href="/breweries/1">Koffi</a></td>
+        <td><a href="/beers/2/edit">Edit</a></td>
+        <td><a class="btn btn-danger" data-confirm="Are you sure?" data-method="delete" href="/beers/2" rel="nofollow">Destroy</a></td>
+      </tr>
+      <tr>
+        <td><a href="/beers/10">Litku</a></td>
+        <td><a href="/styles/1">European pale lager</a></td>
+        <td><a href="/breweries/4">Crap Brew</a></td>
+        <td><a href="/beers/10/edit">Edit</a></td>
+        <td><a class="btn btn-danger" data-confirm="Are you sure?" data-method="delete" href="/beers/10" rel="nofollow">Destroy</a></td>
+      </tr>
+      <tr>
+        <td><a href="/beers/9">Olkku1</a></td>
+        <td><a href="/styles/1">European pale lager</a></td>
+        <td><a href="/breweries/2">Malmgard</a></td>
+        <td><a href="/beers/9/edit">Edit</a></td>
+        <td><a class="btn btn-danger" data-confirm="Are you sure?" data-method="delete" href="/beers/9" rel="nofollow">Destroy</a></td>
+      </tr>
+      <tr>
+        <td><a href="/beers/8">Sierra Nevada Pale Ale</a></td>
+        <td><a href="/styles/2">American pale ale</a></td>
+        <td><a href="/breweries/6">Sierra Nevada  Brewing</a></td>
+        <td><a href="/beers/8/edit">Edit</a></td>
+        <td><a class="btn btn-danger" data-confirm="Are you sure?" data-method="delete" href="/beers/8" rel="nofollow">Destroy</a></td>
+      </tr>
+      <tr>
+        <td><a href="/beers/3">Tuplahumala</a></td>
+        <td><a href="/styles/1">European pale lager</a></td>
+        <td><a href="/breweries/1">Koffi</a></td>
+        <td><a href="/beers/3/edit">Edit</a></td>
+        <td><a class="btn btn-danger" data-confirm="Are you sure?" data-method="delete" href="/beers/3" rel="nofollow">Destroy</a></td>
+      </tr>
+      <tr>
+        <td><a href="/beers/5">X Porter</a></td>
+        <td><a href="/styles/3">Baltic porter</a></td>
+        <td><a href="/breweries/2">Malmgard</a></td>
+        <td><a href="/beers/5/edit">Edit</a></td>
+        <td><a class="btn btn-danger" data-confirm="Are you sure?" data-method="delete" href="/beers/5" rel="nofollow">Destroy</a></td>
+      </tr>
+  </tbody>
+</table>
+:ET:@created_atf1393267450.9043617:@expires_in0

@@ -3,6 +3,13 @@ class BreweriesController < ApplicationController
   before_action :ensure_that_signed_in, except: [:index, :show]
   before_action :ensure_that_signed_in_as_admin, only: [:destroy]
 
+before_action :skip_if_cached, only:[:index]
+
+  def skip_if_cached
+    @order = params[:order] || 'name'
+    return render :index if fragment_exist?( "brewerylist-#{params[:order]}"  )
+  end
+
   # GET /breweries
   # GET /breweries.json
   def index
@@ -11,9 +18,9 @@ class BreweriesController < ApplicationController
     @retired_breweries = Brewery.retired
 
 
-    order = params[:order] || 'name'
+    
 
-    case order
+    case @order
       when 'name' then @breweries.sort_by!{ |b| b.name }
       when 'year' then @breweries.sort_by!{ |b| b.year }
     end   
@@ -39,6 +46,7 @@ class BreweriesController < ApplicationController
   # POST /breweries
   # POST /breweries.json
   def create
+     ["brewerylist-name", "brewerylist-year"].each{ |f| expire_fragment(f) } 
     @brewery = Brewery.new(brewery_params)
 
     respond_to do |format|
@@ -63,6 +71,8 @@ def toggle_activity
   # PATCH/PUT /breweries/1
   # PATCH/PUT /breweries/1.json
   def update
+   expire_fragment('brewerylist') 
+ 
     respond_to do |format|
       if @brewery.update(brewery_params)
         format.html { redirect_to @brewery, notice: 'Brewery was successfully updated.' }
@@ -77,6 +87,7 @@ def toggle_activity
   # DELETE /breweries/1
   # DELETE /breweries/1.json
   def destroy
+   expire_fragment('brewerylist')
     @brewery.destroy
     respond_to do |format|
       format.html { redirect_to breweries_url }
