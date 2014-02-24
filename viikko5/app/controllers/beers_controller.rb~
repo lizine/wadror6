@@ -7,7 +7,7 @@ class BeersController < ApplicationController
   # GET /beers
   # GET /beers.json
    def index
-    @beers = Beer.all
+    @beers = Beer.includes(:brewery).all
 
     order = params[:order] || 'name'
 
@@ -28,6 +28,9 @@ class BeersController < ApplicationController
   # GET /beers/new
   def new
     @beer = Beer.new
+  end
+
+  def nglist
   end
 
   # GET /beers/1/edit
