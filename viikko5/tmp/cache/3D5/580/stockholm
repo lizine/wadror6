@@ -1,0 +1,21 @@
+o: ActiveSupport::Cache::Entry:@value[o:
+Place:@idI"	7428:ET:
+@nameI"Oliver Twist;	T:@statusI"Beer Bar;	T:@reviewlinkI"?http://beermapping.com/maps/reviews/reviews.php?locid=7428;	T:@proxylinkI"=http://beermapping.com/maps/proxymaps.php?locid=7428&d=5;	T:@blogmapI"Ghttp://beermapping.com/maps/blogproxy.php?locid=7428&d=1&type=norm;	T:@streetI"Repslagargatan 6;	T:
+@cityI"Stockholm;	T:@state0:	@zipI"118 46;	T:@countryI"Sweden;	T:@phoneI"46 (0)8 640 05 66;	T:@overallI"0;	T:@imagecountI"0;	To;;I"	7429;	T;
+I"Akkurat;	T;I"Beer Bar;	T;I"?http://beermapping.com/maps/reviews/reviews.php?locid=7429;	T;I"=http://beermapping.com/maps/proxymaps.php?locid=7429&d=5;	T;I"Ghttp://beermapping.com/maps/blogproxy.php?locid=7429&d=1&type=norm;	T;I"Hornsgatan 18;	T;I"Stockholm;	T;0;0;I"Sweden;	T;I"(08) 6440015;	T;I"0;	T;I"0;	To;;I"	7430;	T;
+I"!Glenfiddich Warehouse No. 68;	T;I"Beer Bar;	T;I"?http://beermapping.com/maps/reviews/reviews.php?locid=7430;	T;I"=http://beermapping.com/maps/proxymaps.php?locid=7430&d=5;	T;I"Ghttp://beermapping.com/maps/blogproxy.php?locid=7430&d=1&type=norm;	T;I"Västerlånggatan 68;	T;I"Stockholm;	T;0;I"111 29;	T;I"Sweden;	T;I"(08) 791 90 90;	T;I"0;	T;I"0;	To;;I"
+10371;	T;
+I"Monks Café and Brewery;	T;I"Brewpub;	T;I"@http://beermapping.com/maps/reviews/reviews.php?locid=10371;	T;I">http://beermapping.com/maps/proxymaps.php?locid=10371&d=5;	T;I"Hhttp://beermapping.com/maps/blogproxy.php?locid=10371&d=1&type=norm;	T;I"Wallingatan 38;	T;I"Stockholm;	T;0;I"
+11124;	T;I"Sweden;	T;I"08-23 00 30;	T;I"0;	T;I"0;	To;;I"
+10372;	T;
+I"Monks Café;	T;I"Beer Bar;	T;I"@http://beermapping.com/maps/reviews/reviews.php?locid=10372;	T;I">http://beermapping.com/maps/proxymaps.php?locid=10372&d=5;	T;I"Hhttp://beermapping.com/maps/blogproxy.php?locid=10372&d=1&type=norm;	T;I"Sveavägen 39;	T;I"Stockholm;	T;0;I"
+11134;	T;I"Sweden;	T;I"08-24 13 10;	T;I"0;	T;I"0;	To;;I"
+10412;	T;
+I"Järnet Restaurang o Bar;	T;I"Beer Bar;	T;I"@http://beermapping.com/maps/reviews/reviews.php?locid=10412;	T;I">http://beermapping.com/maps/proxymaps.php?locid=10412&d=5;	T;I"Hhttp://beermapping.com/maps/blogproxy.php?locid=10412&d=1&type=norm;	T;I"Österlånggatan 34;	T;I"Stockholm;	T;0;I"111 31;	T;I"Sweden;	T;I"+46-8-107137;	T;I"0;	T;I"0;	To;;I"
+10413;	T;
+I"Man in the Moon;	T;I"Beer Bar;	T;I"@http://beermapping.com/maps/reviews/reviews.php?locid=10413;	T;I">http://beermapping.com/maps/proxymaps.php?locid=10413&d=5;	T;I"Hhttp://beermapping.com/maps/blogproxy.php?locid=10413&d=1&type=norm;	T;I"Tegnérgatan 2 C;	T;I"Stockholm;	T;0;I"113 58;	T;I"Sweden;	T;I"+46-8-458 95 00;	T;I"0;	T;I"0;	To;;I"
+10414;	T;
+I"Mackinlay's Inn;	T;I"Beer Bar;	T;I"@http://beermapping.com/maps/reviews/reviews.php?locid=10414;	T;I">http://beermapping.com/maps/proxymaps.php?locid=10414&d=5;	T;I"Hhttp://beermapping.com/maps/blogproxy.php?locid=10414&d=1&type=norm;	T;I"Fleminggatan 85;	T;I"Stockholm;	T;0;I"112 34;	T;I"Sweden;	T;I"+46-8-650 83 20;	T;I"0;	T;I"0;	To;;I"
+11741;	T;
+I"Bishops Arms;	T;I"Beer Bar;	T;I"@http://beermapping.com/maps/reviews/reviews.php?locid=11741;	T;I">http://beermapping.com/maps/proxymaps.php?locid=11741&d=5;	T;I"Hhttp://beermapping.com/maps/blogproxy.php?locid=11741&d=1&type=norm;	T;I"Folkungagatan;	T;I"stockholm;	T;0;I"
+11630;	T;I"Sweden;	T;I"004686418890;	T;I"0;	T;I"0;	T:@created_atf1392921603.7590308:@expires_inf6.048e5
